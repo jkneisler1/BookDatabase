@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ee195b3-0a45-435a-8fe1-3c3bf1a32aec" name="Default Changelist" comment="" />
+    <list default="true" id="3ee195b3-0a45-435a-8fe1-3c3bf1a32aec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookDatabase.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BookDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-409">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2765#2766#0" expanded="true" />
@@ -28,16 +31,16 @@
                 <element signature="e#3283#3284#0" expanded="true" />
                 <element signature="e#5033#5034#0" expanded="true" />
                 <element signature="e#5061#5062#0" expanded="true" />
-                <element signature="e#8221#8222#0" expanded="true" />
-                <element signature="e#8295#8296#0" expanded="true" />
-                <element signature="e#8379#8380#0" expanded="true" />
-                <element signature="e#8451#8452#0" expanded="true" />
-                <element signature="e#8529#8530#0" expanded="true" />
-                <element signature="e#8690#8691#0" expanded="true" />
-                <element signature="e#8781#8782#0" expanded="true" />
-                <element signature="e#8892#8893#0" expanded="true" />
-                <element signature="e#8979#8980#0" expanded="true" />
-                <element signature="e#9072#9073#0" expanded="true" />
+                <element signature="e#9569#9570#0" expanded="true" />
+                <element signature="e#9643#9644#0" expanded="true" />
+                <element signature="e#9727#9728#0" expanded="true" />
+                <element signature="e#9799#9800#0" expanded="true" />
+                <element signature="e#9877#9878#0" expanded="true" />
+                <element signature="e#10038#10039#0" expanded="true" />
+                <element signature="e#10129#10130#0" expanded="true" />
+                <element signature="e#10240#10241#0" expanded="true" />
+                <element signature="e#10327#10328#0" expanded="true" />
+                <element signature="e#10420#10421#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,6 +55,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -60,11 +66,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="217" />
-    <option name="y" value="36" />
+    <option name="x" value="189" />
+    <option name="y" value="21" />
     <option name="width" value="1592" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -86,6 +93,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -127,15 +135,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568652690219</updated>
-      <workItem from="1568652692325" duration="10791000" />
+      <workItem from="1568652692325" duration="13362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10791000" />
+    <option name="totallyTimeSpent" value="13362000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="217" y="36" width="1592" height="1000" extended-state="0" />
+    <frame x="189" y="21" width="1592" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -153,7 +161,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298731" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38177624" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -175,8 +183,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BookDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-409">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2765#2766#0" expanded="true" />
@@ -185,16 +192,16 @@
             <element signature="e#3283#3284#0" expanded="true" />
             <element signature="e#5033#5034#0" expanded="true" />
             <element signature="e#5061#5062#0" expanded="true" />
-            <element signature="e#8221#8222#0" expanded="true" />
-            <element signature="e#8295#8296#0" expanded="true" />
-            <element signature="e#8379#8380#0" expanded="true" />
-            <element signature="e#8451#8452#0" expanded="true" />
-            <element signature="e#8529#8530#0" expanded="true" />
-            <element signature="e#8690#8691#0" expanded="true" />
-            <element signature="e#8781#8782#0" expanded="true" />
-            <element signature="e#8892#8893#0" expanded="true" />
-            <element signature="e#8979#8980#0" expanded="true" />
-            <element signature="e#9072#9073#0" expanded="true" />
+            <element signature="e#9569#9570#0" expanded="true" />
+            <element signature="e#9643#9644#0" expanded="true" />
+            <element signature="e#9727#9728#0" expanded="true" />
+            <element signature="e#9799#9800#0" expanded="true" />
+            <element signature="e#9877#9878#0" expanded="true" />
+            <element signature="e#10038#10039#0" expanded="true" />
+            <element signature="e#10129#10130#0" expanded="true" />
+            <element signature="e#10240#10241#0" expanded="true" />
+            <element signature="e#10327#10328#0" expanded="true" />
+            <element signature="e#10420#10421#0" expanded="true" />
           </folding>
         </state>
       </provider>

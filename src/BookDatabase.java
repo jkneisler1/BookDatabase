@@ -31,7 +31,6 @@ import java.text.NumberFormat;
  */
 
 public class BookDatabase {
-    // private Book book;
     private HashMap<String, Book> bookDB = new HashMap<>();
 
     public static void main(String[] args) {
@@ -47,8 +46,10 @@ public class BookDatabase {
             System.out.println("\tFind a book (F)");
             System.out.println("\tAdd all books (A)");
             System.out.println("\tSearch for a book (S)");
+            System.out.println("\tCreate an empty book (M)");
             System.out.println("\tQuit (Q)");
             choice = key.nextLine();
+
             if (choice.equalsIgnoreCase("E")) {
                 System.out.println("Entering books into the database");
                 bDB.enterBook();
@@ -73,6 +74,13 @@ public class BookDatabase {
                 Book tmpBook = bDB.getBook(sku);
                 tmpBook.displayBook();
             }
+            else if (choice.equalsIgnoreCase("M")) {
+                System.out.println("Enter an empty book with a SKU number (to be filled in later).");
+                System.out.println("Enter a new SKU number: ");
+                String sku = key.nextLine();
+                System.out.println();
+                bDB.enterEmptyBook(sku);
+            }
             else if (choice.equalsIgnoreCase("Q")) {
                 System.out.println("Quiting the system.");
                 cont = false;
@@ -87,6 +95,12 @@ public class BookDatabase {
 
     private String getVal(String ky) {                  // returns the book titles from the hash map for choice "F"
         return bookDB.get(ky).getTitle();
+    }
+
+    private void enterEmptyBook(String sku) {           // used to enter an empty book
+        Book book = new Book();
+        bookDB.put(sku, book);
+        return;
     }
 
     private void enterBook() {                          // Method used to enter and populate a book
@@ -167,7 +181,6 @@ public class BookDatabase {
         private String author;
         private String description;
         private double price;
-
         private boolean isInStock;
 
         // Default Constructors
@@ -177,6 +190,15 @@ public class BookDatabase {
             description = "NO DESCPTION";
             price = 0.0;
             isInStock = false;
+        }
+
+        // Overloaded Constructor
+        private Book(String title, String author, String description) {
+            this.title = title;
+            this.author = author;
+            this.description = description;
+            this.price = 0.0;
+            this.isInStock = false;
         }
 
         // Overloaded Constructor
@@ -204,6 +226,22 @@ public class BookDatabase {
                 System.out.println("Currently the book is not in stock.");
             }
             System.out.println();
+        }
+
+        private String displayText() {
+            String newLine = "\n";
+            StringBuilder sb = new StringBuilder();
+            sb.append("Author: ");
+            sb.append(getAuthor());
+            sb.append(newLine);
+            sb.append("Title: ");
+            sb.append(getTitle());
+            sb.append(newLine);
+            sb.append("Description: ");
+            sb.append(getDescription());
+            sb.append(newLine);
+
+            return sb.toString();
         }
 
         /**
